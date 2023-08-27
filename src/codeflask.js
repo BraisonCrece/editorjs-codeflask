@@ -23,14 +23,15 @@
 
   import Prism from 'prismjs';
 
-  // import "prismjs-components-importer/esm"; // ALL - Massivly Increases Bundle size!
+  import "prismjs-components-importer/esm"; // ALL - Massivly Increases Bundle size!
 
+/**
   import "prismjs-components-importer/esm/prism-iecst"; // Structured Text
   import "prismjs-components-importer/esm/prism-markdown"; 
   import "prismjs-components-importer/esm/prism-json"; 
   import "prismjs-components-importer/esm/prism-python";
   import "prismjs-components-importer/esm/prism-bash";
- 
+ */
 
   import CodeFlask from 'codeflask';
 
